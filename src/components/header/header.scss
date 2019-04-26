@@ -1,0 +1,19 @@
+@import '../../theme/variable.scss';
+
+.toolbar{
+    height: 5vw;
+    width: 100%;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    img{
+        margin-left: 1vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    .header{
+        margin-left: 1vw;
+        color: $header-font-color;
+        font-size: 2vw;
+    }
+}
